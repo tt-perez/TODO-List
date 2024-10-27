@@ -1,0 +1,117 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    overflow: hidden; 
+  }
+.app-bar{
+    border: 1px solid white;
+    border-radius: 0 0 10px 10px;
+    background-color: white;
+    position: fixed;
+    width: 100%;
+}
+.main{
+    margin-top: 70px;
+    background-color: #e5e5e5;
+}
+.welcome{
+    margin-left: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: small;
+    margin-top: 10px;
+    color: darkgrey;
+    
+}
+.title{
+    color: grey;
+    text-align: center;
+    font-family:cursive, 'Arial Narrow', Arial, sans-serif;
+}
+.remind{
+    font-size: x-small;
+    color: darkgrey;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+.tasks{
+    font-family: cursive;
+    color: grey;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 16px;
+    height: 420px;
+    margin: 0 auto;
+    
+    margin-top: 20px;
+    max-width: 600px;
+}
+.tasks h3{
+    margin-left: 15px;
+    margin-top: 10px;
+}
+.input{
+    max-width: 430px;
+    margin: 10px auto;
+    margin-right: 10px;
+}
+.add{
+    max-width: 100px;
+    margin: 10px;
+}
+form{
+    display: flex;
+    align-items: center;
+}
+.list-tasks{
+    background-color: #e5e5e5;
+    max-width: 480px;
+    margin: 10px auto;
+    border-radius: 6px;
+    height: 50px;
+    padding: 10px;
+    
+}
+.name{
+    flex-grow: 1;
+    margin-left: 8px; 
+}
+
+.task-item {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between; 
+    margin-bottom: 8px;
+}
+.todo{
+    text-align: center;
+}
+.ticked {
+    text-decoration: line-through; 
+}
+.date{
+    color: darkgray;
+    margin-left: auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: small;
+}
+
+@media (max-width: 600px) {
+    .date {
+        margin-left: 0; 
+        text-align: center; 
+        font-size: small; 
+    }
+}
+@media (min-width: 601px) {
+    .date {
+        margin-left: auto; 
+        font-size: small; 
+        text-align: right;
+    }
+}
+
+
+  
+
+
+
